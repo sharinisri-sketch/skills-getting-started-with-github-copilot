@@ -51,6 +51,18 @@ activities = {
         "max_participants": 22,
         "participants": ["liam@mergington.edu", "ava@mergington.edu"]
     },
+    "Tennis Team": {
+        "description": "Learn and compete in tennis matches",
+        "schedule": "Mondays and Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["noah@mergington.edu"]
+    },
+    "Volleyball Club": {
+        "description": "Train and play competitive volleyball",
+        "schedule": "Tuesdays and Thursdays, 5:00 PM - 6:30 PM",
+        "max_participants": 18,
+        "participants": ["zoe@mergington.edu", "lucas@mergington.edu"]
+    },
     "Art Club": {
         "description": "Explore various art forms and create masterpieces",
         "schedule": "Mondays, 3:00 PM - 4:30 PM",
@@ -63,6 +75,18 @@ activities = {
         "max_participants": 18,
         "participants": ["mason@mergington.edu", "charlotte@mergington.edu"]
     },
+    "Photography Club": {
+        "description": "Master photography techniques and creative composition",
+        "schedule": "Saturdays, 1:00 PM - 2:30 PM",
+        "max_participants": 12,
+        "participants": ["grace@mergington.edu", "jack@mergington.edu"]
+    },
+    "Music Band": {
+        "description": "Play instruments and perform in concerts",
+        "schedule": "Wednesdays and Fridays, 4:00 PM - 5:30 PM",
+        "max_participants": 25,
+        "participants": ["henry@mergington.edu"]
+    },
     "Debate Club": {
         "description": "Engage in debates and improve argumentation skills",
         "schedule": "Thursdays, 3:30 PM - 4:30 PM",
@@ -74,6 +98,18 @@ activities = {
         "schedule": "Wednesdays, 3:00 PM - 4:00 PM",
         "max_participants": 14,
         "participants": ["logan@mergington.edu"]
+    },
+    "Model United Nations": {
+        "description": "Represent countries and develop diplomatic skills",
+        "schedule": "Mondays and Thursdays, 4:00 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["amelia@mergington.edu", "oliver@mergington.edu"]
+    },
+    "Robotics Club": {
+        "description": "Build and program robots for competitions",
+        "schedule": "Tuesdays, 4:30 PM - 6:00 PM",
+        "max_participants": 16,
+        "participants": ["benjamin@mergington.edu"]
     }
 }
 @app.get("/")
